@@ -101,6 +101,6 @@ ggplot(dhfr_long, aes(x = time, y = Absorbance, color = Treatment,
   theme_classic() +
   theme(
     legend.position = "bottom",   
-    legend.title = element_blank()# Remove legend title, if desired
+    legend.title = element_blank()
   ) 
 
